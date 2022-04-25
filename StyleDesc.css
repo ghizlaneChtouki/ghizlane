@@ -1,0 +1,228 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: url("back2.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+}
+nav 
+{
+    background-color: #2e2e32;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: fixed;
+    width: 100%;
+}
+nav div 
+{
+    display: inline-block;
+    margin: 20px;
+}
+nav .logo
+{
+    font-size: 30px;
+
+    color: aliceblue;
+}
+nav .liste li 
+{
+    display: inline-block;
+
+}
+nav .liste li a ,#flip
+{
+    margin-left: 24px;
+text-decoration: none;
+font-size: 20px;
+color: rgb(116, 167, 211);
+border-bottom: transparent;
+padding: 20px;
+cursor: pointer;
+}
+nav .liste li:hover a 
+{
+   border-bottom: 2px solid rgb(54, 190, 99);
+   background-color: #73737c;
+}
+nav .recherche 
+{
+    margin-left : 50px;
+}
+nav .recherche  .cherche
+{
+    width: 300px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 7px 7px 7px 7px ;
+    border: 1px solid aliceblue;
+    color: white;
+}
+nav .recherche .btn
+{
+    width: 100px;
+    height:30px ;
+    background-color: rgb(54, 190, 99);
+    border: transparent;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px 10px 10px  10px   ;
+}
+nav .recherche .btn:hover
+{
+    background-color: rgb(99, 211, 136);
+    border: 1px solid white; 
+}
+
+section div
+{
+    display: inline-block;
+    margin: 10px;
+    padding: -8px;
+}
+section img
+{
+    height: 500px;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: #2e2e32;
+}
+section
+{
+    position: fixed;
+    z-index: -1111;
+    left: 150px;
+    top: 100px;
+    background-color: #b1caca; 
+    width: 70%;
+    opacity: 0.9;
+    border-radius: 10px 10px 10px 10px;
+}
+section .titre
+{
+    position: absolute;
+    top: 60px;
+    left: 600px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+section .texte
+{
+    position: absolute;
+    top: 120px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+section form
+{
+    position: absolute;
+    top :250px;
+}
+section form label
+{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 20px;
+}
+section form input 
+{
+    margin: 10px;
+
+}
+section form .quant
+{
+    width: 40%;
+    height: 30px;
+    background-color: #a4a4ce;
+    border: transparent;
+}
+section form .ajout
+{
+    width: 90%;
+    height: 40px;
+    background-color: rgb(54, 190, 99);
+    border: 1px solid rgb(141, 216, 166);
+    font-size: 12px;
+    border-radius: 10px 10px 10px 10px ;
+    cursor: pointer;
+    color: white;
+}
+section form .ajout:hover
+{
+    border-color: #2e2e32;
+    background-color:rgb(152, 209, 171) ;
+}
+section form  select
+{
+    width: 40%;
+    height: 30px;
+    background-color: #a4a4ce;
+    border: 1px solid #d7d7e9;
+    font-size: 12px;
+    border-radius: 8px 8px 8px 8px ;
+}
+footer
+{
+    position: absolute;
+    top : auto ; 
+    background-color: #1c1c27;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    padding: 40px;
+    border:  1px solid #282838 ;
+}
+footer div 
+{
+    display: inline-block;
+    margin-left : 30px;
+}
+footer  .logo
+{
+    font-size: 30px;
+    margin-right: 20px;
+    color: aliceblue;
+}
+footer .center
+{
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+footer .center ul li 
+{
+    margin-bottom: 10px;
+}
+footer .center li a 
+{
+    text-decoration: none;
+    font-size: 20px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #a4a4ce;
+    cursor: pointer;
+}
+footer .center li:hover a
+{
+    color: aqua;
+} 
+footer .right ul li 
+{
+   margin-top: 10px;
+}
+footer .right ul li a 
+{
+    text-decoration: none;
+    font-size: 20px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #a4a4ce;
+    cursor: pointer;
+}
+footer .right li:hover a
+{
+    color: aqua;
+} 

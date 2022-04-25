@@ -1,0 +1,94 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+body
+{
+    background: url(1111.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+}
+form
+{
+    margin-left: 450px;
+    margin-top: 25px;
+    background-color: #9cb4cb;
+    height: 500px;
+    padding: 50px;
+    padding-bottom: -400px;
+    margin-bottom: 300px;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+form input
+{
+    width: 300px;
+    height: 20px;
+    background-color: transparent;
+    border: transparent;
+    border-bottom: 2px solid black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+form select
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    height: 30px;
+    border: transparent;
+    border-bottom: 2px solid black;
+    background: transparent;
+    cursor: pointer;
+}
+
+form textarea
+{
+    background: transparent;
+}
+form input[title="ajout"]
+{
+    width: 100px;
+    height: 40px;
+    border: 3px solid black;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding-bottom: 40px;
+    cursor: pointer;
+}
+form input:hover
+{
+    background-color: #47637e;
+    color: #9cb4cb;
+    border-color: #47637e;
+}
+form a
+{
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+    padding: 23px;
+    border: 3px solid black;
+    border-radius: 10px 10px 10px 10px ;
+    width: 130px;
+    height: 40px;
+}
+form a:hover
+{
+    background-color: #47637e;
+    color: #9cb4cb;
+    border-color: #47637e;
+    
+}

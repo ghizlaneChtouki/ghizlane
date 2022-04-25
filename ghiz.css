@@ -1,0 +1,43 @@
+body{
+background-color:white;
+}
+img{
+	width:90px;
+	height:90px;
+	border-radius:50%;
+}
+.about{
+margin-left:100px;
+margin-top:50px;
+	
+}
+.about2{ 
+position:relative;
+left:100px;
+top:110px;
+	
+	
+}
+.about3{
+	position:relative;
+left:600px;
+top:-10px;
+	
+}
+.about4{
+	position:relative;
+left:100px;
+top:25px;
+	
+	
+}
+.about5{
+	position:relative;
+left:600px;
+top:-100px;
+	
+}
+.yes{
+	margin-left:100px;
+	margin-top:100px;
+}

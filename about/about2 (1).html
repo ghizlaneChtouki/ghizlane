@@ -1,0 +1,315 @@
+<!doctype html>
+<html>
+<head>
+<title> about2</title>
+ <link rel="stylesheet"  href="ghiz.css"  />
+ <style>
+   *
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{background-color: beige;
+    /*background-image: url("back2.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;*/
+  
+    z-index: -1;
+}
+/* navbar  */
+nav 
+{
+    background-color: #2e2e32;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: fixed;
+    width: 100%;
+    margin-top: -50px;
+}
+nav div 
+{
+    display: inline-block;
+    margin: 20px;
+}
+nav .logo
+{
+    font-size: 30px;
+
+    color: aliceblue;
+}
+nav .liste li 
+{
+    display: inline-block;
+
+}
+nav .liste li a 
+{
+    margin-left: 24px;
+text-decoration: none;
+font-size: 20px;
+color: rgb(116, 167, 211);
+border-bottom: transparent;
+padding: 10px;
+cursor: pointer;
+}
+nav .liste li:hover a 
+{
+   border-bottom: 2px solid rgb(54, 190, 99);
+   background-color: #73737c;
+}
+nav .recherche 
+{
+    margin-left : 40px;
+}
+nav .recherche  .cherche
+{
+    width: 300px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 7px 7px 7px 7px ;
+    border: 1px solid aliceblue;
+    color: white;
+}
+nav .recherche .btn
+{
+    width: 100px;
+    height:30px ;
+    background-color: rgb(54, 190, 99);
+    border: transparent;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px 10px 10px  10px   ;
+}
+nav .recherche .btn:hover
+{
+    background-color: rgb(99, 211, 136);
+    border: 1px solid white; 
+}
+/* center */
+header 
+{
+    background-image: url("back2.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 130%;
+    display: flex;
+}
+header .titre
+{
+    
+    margin-top: 200px;
+    margin-left: 180px;
+    font-size: 24px;
+    color: antiquewhite;
+}
+header .titre h1
+{
+    margin-bottom: 25px;
+}
+section
+{
+    z-index: -1;
+    margin-left: 100px;
+    margin-top: 180px;
+    margin-bottom: 50px;
+    background-color:#8d8d93 ;
+    opacity: 0.9;
+    border-radius: 10px;
+    width: 94%;
+}
+section .contrainer div 
+{
+    display: inline-block;
+    margin: 20px;
+}
+section h2  
+{
+  padding-top: 40px;
+    margin-left: 500px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section .contrainer div  a
+{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+}
+section .contrainer div :hover a
+{
+   color: burlywood;
+} 
+section.contrainer div  img 
+{
+    border: 2px solid #73737c;
+    border-radius: 10px;
+}
+section .contrainer div:hover  img 
+{
+    border-color: aliceblue;
+} 
+
+.Feature-produit .contrainer img
+{
+    height: 300px;
+    width: 260px;
+}
+.Feature-produit .contrainer div 
+{
+    display: inline-block;
+}
+.Feature-produit .contrainer div  h4 
+{
+    font-size: 50px;
+}
+.Feature-produit .contrainer div img
+{
+    border: 2px solid #73737c;
+    border-radius: 10px;
+} 
+.Feature-produit .contrainer div:hover  img 
+{
+    border-color: aliceblue;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer
+{
+    position: absolute;
+    top : auto ; 
+    background-color: #1c1c27;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    padding: 40px;
+    border:  1px solid #282838 ;
+}
+footer div 
+{
+    display: inline-block;
+    margin-left : 30px;
+}
+footer  .logo
+{
+    font-size: 30px;
+    margin-right: 20px;
+    color: aliceblue;
+}
+footer .center
+{
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+footer .center ul li 
+{
+    margin-bottom: 10px;
+}
+footer .center li a 
+{
+    text-decoration: none;
+    font-size: 20px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #a4a4ce;
+    cursor: pointer;
+}
+footer .center li:hover a
+{
+    color: aqua;
+} 
+footer .right ul li 
+{
+   margin-top: 10px;
+}
+footer .right ul li a 
+{
+    text-decoration: none;
+    font-size: 20px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #a4a4ce;
+    cursor: pointer;
+}
+footer .right li:hover a
+{
+    color: aqua;
+} 
+ </style>
+</head>
+<body >
+    <!--Navbar-->
+    <nav>
+      <div class="logo">
+          <strong>CLOTHING</strong>
+      </div>
+      <div class="liste">
+          <ul>
+              <li><a href="index1.php"><i class="fa-solid fa-house-chimney"></i>Home</a></li>
+              <li><a href="About.php"><i class="fa-solid fa-eject"></i>About</a></li>
+              <li><a href="https://www.linkedin.com/in/ghizlane-chtouki-392701225?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BdQlR8VJbTZO94oLwC6eKOw%3D%3D"><i class="fa-solid fa-phone"></i>Contact</a></li>
+              <li><a href="index1.php"><i class="fa-solid fa-basket-shopping"></i>Pannier</a></li>
+          </ul>
+      </div>
+      <div class="recherche">
+          <input type="text" class="cherche" name="chercher" placeholder="chercher ici ..."/>
+          <input type="submit" class="btn" name="chercher" value="Rechercher" />
+      </div>
+      <div class="liste">
+      <ul>
+          <li>
+          <a href="" onclick="decon()"><i class="fa-solid fa-phone"></i>Deconnexion</a>
+          </li>
+      </ul>
+      </div>
+
+</nav>
+<div class="about">
+  <br/> <br/> <br/> <br/> <br/>
+            <h1>Cloting <br/>it is a new site !</h1>
+              <p> coloting: it is a new site for the sales of all types of clothing authorized 24/24 for all the world he wishes you welcome.<br/>
+associated with the company IMANE CLOTING. <br/>
+                </p>
+			
+</div>
+<div class="yes">
+<div class="about2">
+<img src="user.png">
+kawtar el azhari :devoloper <br/>
+gmail:el azhari.fst@uhp.ac.ma 
+</div>
+<div class="about3">
+<img src="user.png">
+ soukaina el abayad  :devoloper <br/>
+gmail:el abyad .fst@uhp.ac.ma  
+</div>
+<div class="about4">
+<img src="user.png">
+  imane charif :devoloper <br/>
+gmail:charif.fst@uhp.ac.ma  
+</div>
+<div class="about5">
+<img src="user.png">
+  ghizlane chtouki :devoloper <br/>
+gmail:chtouki.fst@uhp.ac.ma 
+</div>
+</div>
+<body>
+</body>
+</html>
